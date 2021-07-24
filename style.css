@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    padding-top: 1200px;
+}
+
+.profile {
+    width: 400px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 450px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 1020px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: linear-gradient(#00ffc3 0%, #0015ff 100%);
+    color: white;
+    padding-top: 200px;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#bio {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+p {
+    font-size: 23px;
+}
+
+.line {
+    height: 6px;
+    width: 75px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    cursor: pointer;
+    z-index: 10;
+    background: #8c00ff;
+    width: 100%;
+    margin-top: 0px;
+}
+.menu a{
+    color: white;
+}
+
+.links {
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 25px;
+    font-family: Dancing Script;
+    display: inline;
+}
+
+.links:hover {
+    background-color: #ff6b0f;
+}
+
+#name {
+    font-family: Pacifico;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.article:hover {
+    color: springgreen;
+}
+
+#contact {
+    background-color: crimson;
+}
+
+.contact1 h3 {
+    display: inline;
+}
+
+.contact1 a {
+    color: white;
+    text-shadow: none;
+}
